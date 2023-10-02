@@ -2,7 +2,7 @@ radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber == 1) {
         basic.showNumber(1)
         pins.digitalWritePin(DigitalPin.P0, 1)
-        pins.digitalWritePin(DigitalPin.P2, 0)
+        pins.digitalWritePin(DigitalPin.P1, 0)
     } else if (receivedNumber == 2) {
         basic.showNumber(2)
         pins.digitalWritePin(DigitalPin.P1, 1)
