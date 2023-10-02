@@ -5,8 +5,8 @@ radio.onReceivedNumber(function (receivedNumber) {
         pins.digitalWritePin(DigitalPin.P1, 0)
     } else if (receivedNumber == 2) {
         basic.showNumber(2)
-        pins.digitalWritePin(DigitalPin.P1, 1)
         pins.digitalWritePin(DigitalPin.P0, 0)
+        pins.digitalWritePin(DigitalPin.P1, 1)
     } else if (receivedNumber == 3) {
         basic.showNumber(3)
         pins.digitalWritePin(DigitalPin.P0, 1)
